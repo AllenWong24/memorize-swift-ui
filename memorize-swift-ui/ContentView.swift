@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    var emojis = ["🍏","🍎","🍐","🍊","🍋","🍌","🍉","🍇","🍓","🫐","🍈","🍒","🍑","🥭","🥬","🍍","🥥","🥝","🍅","🍆","🥑","🍔","🍟","🍞"]
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("Hello, Swift UI!")
+            .padding(.all)
+            
     }
 }
 
