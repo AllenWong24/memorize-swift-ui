@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  memorize-swift-ui
 //
-//  Created by 黄家健 on 2022/6/19.
+//  Created by Allen Wong on 2022/6/19.
 //
 
 import SwiftUI
@@ -19,7 +19,6 @@ struct ContentView: View {
                     ForEach(emojis[0..<emojiCount], id: \.self) { emoji in
                         CardView(content: emoji).aspectRatio(2/3, contentMode: .fit)
                     }
-                    
                 }
             }
             .foregroundColor(.red)
