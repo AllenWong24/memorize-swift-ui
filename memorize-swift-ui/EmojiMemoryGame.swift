@@ -13,7 +13,7 @@ class EmojiMemoryGame {
     static let emojis = ["🍏","🍎","🍐","🍊","🍋","🍌","🍉","🍇","🍓","🫐","🍈","🍒","🍑","🥭","🥬","🍍","🥥","🥝","🍅","🍆","🥑","🍔","🍟","🍞"]
     
     static func createMemoryGame() -> MemoryGame<String> {
-        MemoryGame<String>(numberOfPairsOfCards: 4, createCardContent: {
+        MemoryGame<String>(numberOfPairsOfCards: emojis.count, createCardContent: {
             pairIndex in emojis[pairIndex]
         })
     }
